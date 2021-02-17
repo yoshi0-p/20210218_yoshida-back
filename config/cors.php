@@ -1,6 +1,6 @@
 <?php
 return [
-    'paths' => ['*'],
+    'paths' => ['https://affectionate-sinoussi-89570e.netlify.app/'],
     'allowed_methods' => ['https://affectionate-sinoussi-89570e.netlify.app/'],
     'allowed_origins' => ['https://affectionate-sinoussi-89570e.netlify.app/'],
     'allowed_origins_patterns' => [],
