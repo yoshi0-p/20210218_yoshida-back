@@ -10,7 +10,7 @@ use App\Http\Controllers\LikesController;
 use App\Http\Controllers\CommentsController;
 
 Route::apiResource('/shares', SharesController::class);
-Route::post('/register', [RegisterController::class, 'POST']);
+Route::post('/register', [RegisterController::class, 'post']);
 Route::post('/login', [LoginController::class, 'post']);
 Route::post('/logout', [LogoutController::class, 'post']);
 Route::get('/user', [UsersController::class, 'get']);
